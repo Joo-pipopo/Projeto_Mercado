@@ -1,0 +1,279 @@
+@media only screen and (max-width: 767px) {}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.logo {
+    display: inline-flex;
+}
+
+#titulo-header {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #b0b05a;
+    text-align: center;
+}
+
+header {
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+header .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+nav {
+    background-color: yellow;
+    padding: 20px 0;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-around;
+    margin: 0;
+}
+
+nav ul li a {
+    color: black;
+    font-size: 20pt;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+#title {
+    text-align: center;
+    text-shadow: 3px 3px 10px white;
+    color: black;
+}
+
+
+/*
+div figure {
+    margin: auto;
+    width: 95%;
+    border-bottom: 3px solid #000000;
+    padding: 20px 0px 10px 0px;
+}
+*/
+
+.item1 {
+    background-color: rgb(177, 108, 108);
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+
+.item1 div {
+    display: flex;
+}
+
+section>h1,
+h2 {
+    text-align: center;
+}
+
+.item1 figure img {
+    width: 280px;
+    height: 350px;
+    box-sizing: border-box;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 16pt;
+}
+
+#carnes,
+#higieness,
+#verduras,
+#bebidas,
+#frutas {
+    width: 99%;
+    margin: 10px;
+    display: flex;
+    overflow: auto;
+    justify-content: space-between;
+    background-color: #d18a8a;
+    border-radius: 10px 10px 10px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 1px black;
+}
+
+#carnes {
+    background-color: #d18a8a;
+}
+
+#higieness {
+    background-color: #21e8ca;
+}
+
+#verduras {
+    background-color: green;
+}
+
+#frutas {
+    background-color: greenyellow;
+}
+
+#bebidas {
+    background-color: yellow;
+}
+
+#peixes {
+    background-color: blue;
+}
+
+#doces {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: #459869;
+    border-radius: 20px 20px 40px 40px;
+    border: 1px solid black;
+}
+
+#peixes {
+    width: 99%;
+    display: flex;
+    overflow: auto;
+    justify-content: center;
+    margin: auto;
+    border-radius: 20px 20px 40px 40px;
+    border: 1px solid black;
+}
+
+#higiene figure {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px;
+    border-bottom: 4px solid #000000;
+}
+
+#higiene figure img {
+    margin: auto;
+    width: 200px;
+}
+
+#produtos {
+    display: flex;
+}
+
+#porra {
+    margin: auto;
+}
+
+#socorro {
+    height: 500px;
+    width: 300px;
+    border: 3px solid #000000;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 0px;
+    background-color: white;
+}
+
+#card {
+    height: 480px;
+    padding: 10px;
+    border: 3px solid #000000;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 0px;
+    background-color: white;
+    margin: 10px;
+}
+
+#lacta {
+    width: 100%;
+}
+
+#lacta>img {
+    width: 300px;
+    margin: auto;
+}
+
+#bebidacard {
+    height: 600px;
+    border: 3px solid #000000;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 0px;
+    background-color: white;
+    margin: 10px;
+}
+
+#bebidafigure {
+    margin: auto;
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px;
+    border-bottom: 4px solid #000000;
+}
+
+#bebidafigure img {
+    margin: auto;
+    width: auto;
+    height: 100%;
+    display: grid;
+}
+
+figure {
+    margin: auto;
+    width: 220px;
+    border-radius: 20px;
+    border-bottom: 4px solid #000000;
+}
+
+figure img {
+    width: 100%;
+    height: 300px;
+    display: grid;
+}
+
+div #comprar {
+    background-color: green;
+    border: none;
+    font-size: 16pt;
+    padding: 15px;
+    width: 100%;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2 {
+    text-align: left;
+    padding: 15px 0 20px 7px;
+    font-size: large;
+}
+
+p {
+    text-align: justify;
+    padding: 0 7px 10px 7px;
+}
+
+a {
+    display: block;
+    text-align: left;
+    margin: 0 7px 12px 7px;
+}
