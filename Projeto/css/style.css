@@ -153,6 +153,28 @@ figcaption {
     border: 1px solid black;
 }
 
+#doces div {
+    height: 500px;
+    width: 280px;
+    border: 3px solid #000000;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 0px;
+    background-color: white;
+}
+
+#doces div figure {
+    height: 330px;
+    width: 100%;
+    margin: auto;
+    border-radius: 20px;
+    border-bottom: 4px solid #000000;
+}
+
+#doces figure img {
+    height: 100%;
+    display: grid;
+}
+
 #peixes {
     width: 99%;
     display: flex;
@@ -194,7 +216,8 @@ figcaption {
 
 #card {
     height: 480px;
-    padding: 10px;
+    width: 250px;
+    padding: 20px;
     border: 3px solid #000000;
     border-radius: 20px;
     box-shadow: 0px 0px 5px 0px;
@@ -231,6 +254,39 @@ figcaption {
 #bebidafigure img {
     margin: auto;
     width: auto;
+    height: 100%;
+    display: grid;
+}
+
+#peixes #card {
+    height: 400px;
+    width: 250px;
+    border: 3px solid #000000;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 0px;
+    background-color: white;
+    margin: 10px;
+}
+
+#peixes div figure {
+    height: 240px;
+    width: 100%;
+    margin: auto;
+    border-radius: 20px;
+    border-bottom: 4px solid #000000;
+}
+
+#peixes div {
+    height: 400px;
+    width: 300px;
+    border: 3px solid #000000;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 0px;
+    background-color: white;
+    margin: 10px;
+}
+
+#peixes figure img {
     height: 100%;
     display: grid;
 }
